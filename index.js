@@ -13,5 +13,5 @@ const port = 4000;
 app.use('/user', require('./routes/userRoute.js'));
 
 app.listen(port, () => {
-    console.log(`Vouch ka Assignment is listening at http://localhost:${port}`)
+    console.log(`Port is listening at http://localhost:${port}`)
 })
